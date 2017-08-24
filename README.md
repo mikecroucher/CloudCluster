@@ -2,7 +2,7 @@
 
 ## Logging in 
 
-**<i></i>USERNAME@ec2-54-194-192-151.eu-west-1.compute.amazonaws.com** 
+**<i>USERNAME@ec2-54-194-192-151.eu-west-1.compute.amazonaws.com</i>** 
 
 ## Interative sessions on worker nodes
 
