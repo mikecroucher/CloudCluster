@@ -19,7 +19,7 @@ Do not run MobaXterm directly from the zip file.
 
 ## Making the MPI compilers available
 
-To make the `mpicc` command avaiable, run the following command.
+To make the `mpicc`,`mpif90` and `mpiCC` commands avaiable, run the following module command.
 
 ```
 module load  mpi/openmpi/1.10.2/gcc-4.8.5
