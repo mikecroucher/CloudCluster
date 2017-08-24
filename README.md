@@ -5,7 +5,7 @@
 ### Install MobaXterm
 
 To use the HPC from a Windows machine, you need a way to connect - we recommend you install **MobaXterm**.
-This is available from [http://mobaxterm.mobatek.net](http://mobaxterm.mobatek.net).
+This is available from [http://mobaxterm.mobatek.net/download-home-edition.html](http://mobaxterm.mobatek.net/download-home-edition.html).
 On a University machine, you need to install the **Portable edition** (highlighted in the image below):
 
 <img src="images/mobaXterm_download.png" />
