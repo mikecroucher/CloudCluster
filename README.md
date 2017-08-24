@@ -2,6 +2,17 @@
 
 ## Logging in 
 
+### Exercise 1: Install MobaXterm
+
+To use the HPC from a Windows machine, you need a way to connect - we recommend you install **MobaXterm**.
+This is available from [http://mobaxterm.mobatek.net](http://mobaxterm.mobatek.net).
+On a University machine, you need to install the **Portable edition** (highlighted in the image below):
+
+<img src="images/mobaXterm_download.png" />
+
+The download is a zip file that contains three other files. You should **extract these files**, for example to your desktop, before you use them.
+Do not run MobaXterm directly from the zip file.
+
 ``USERNAME@ec2-54-194-192-151.eu-west-1.compute.amazonaws.com``
 
 ## Interative sessions on worker nodes
