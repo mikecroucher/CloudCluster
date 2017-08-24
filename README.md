@@ -17,6 +17,14 @@ Do not run MobaXterm directly from the zip file.
 
 ``USERNAME@ec2-54-194-192-151.eu-west-1.compute.amazonaws.com``
 
+## Making the MPI compilers available
+
+To make the `mpicc` command avaiable, run the following command.
+
+```
+module load  mpi/openmpi/1.10.2/gcc-4.8.5
+```
+
 # Submit a pre-prepared job to the queue
 
 Once you have logged in, here's how to submit your first job quickly 
