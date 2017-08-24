@@ -17,15 +17,6 @@ Do not run MobaXterm directly from the zip file.
 
 ``USERNAME@ec2-54-194-192-151.eu-west-1.compute.amazonaws.com``
 
-## Interative sessions on worker nodes
-
-You can request an interactive session on the worker nodes with 2 MPI slots with the command
-```
-qrsh -pe mpislots 2
-```
-This will allow you to compile and run small MPI jobs interactively. 
-Please do not request large numbers of cores in interactive sessions since we have to pay for them all!
-
 # Submit a pre-prepared job to the queue
 
 Once you have logged in, here's how to submit your first job quickly 
@@ -81,3 +72,14 @@ mpicc MPI_hello_world.c -o MPI_hello_world
 #Run
 mpirun  ./MPI_hello_world
 ```
+
+## Interative sessions on worker nodes
+
+You can request an interactive session on the worker nodes with 2 MPI slots with the command
+```
+qrsh -pe mpislots 2
+```
+This will allow you to compile and run small MPI jobs interactively. 
+Please do not request large numbers of cores in interactive sessions since we have to pay for them all!
+
+Note that you cannot submit batch jobs from a qrsh session.
